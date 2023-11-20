@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always">
+    <serverData>
+      <paths name="192.168.1.11">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/workspace/CRST" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="qiumj@192.168.1.11:22 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/qiumj/workspace/CRST" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

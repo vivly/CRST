@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b3c1036e-de86-4784-bc0c-6ff4714eb14f" name="192.168.1.11">
+        <fileTransfer rootFolder="/home/qiumj" accessType="SFTP" host="192.168.1.11" port="22" sshConfigId="36c2dc1e-aec1-4351-92ac-066c4e384cc0" sshConfig="qiumj@192.168.1.11:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
