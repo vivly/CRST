@@ -1,20 +1,17 @@
-# CRST
+# MCS
 
-Source code for the model CRST, the epidemic risk assessment model for Nanjing.
+Source code for the model mcs, the epidemic policy prediction model in the US.
 
 ## Setup
 
-- Install CUDA 10.1
+- Install CUDA 11.3
 - Run `setup_py.sh` to install necessary packages
 
 ## Usage
 
 ```shell
 cd src/
-### train and test model, more options can be referred in run_models.py
-python run_models.py --forecast_date 2021-02-28
+### train and test model, more options can be referred in main.py
+python main.py 
 
-## Notification
-- The CRST model is memory efficient, any NVIDIA GPU with 4GB or more memory is capable of running this model. 
-- The recommended date range is from 2021-02-28 to 2022-05-01
 
